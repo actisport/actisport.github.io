@@ -48,6 +48,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
+
+
+
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1488,6 +1495,7 @@
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
+		color: #4867e0
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2258,7 +2266,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.25);
+			background-color: rgba(143,143,143,0.25);
 		}
 
 		input[type="submit"]:active,
@@ -2308,7 +2316,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ed4933;
+			background-color: #4867e0;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2318,7 +2326,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #5066ba !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2326,7 +2334,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #eb341c !important;
+				background-color: #4867e0 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3160,7 +3168,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: rgba(74,136,203,0.64);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3791,7 +3799,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(28,35,41,0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
