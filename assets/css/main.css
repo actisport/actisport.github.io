@@ -2473,7 +2473,7 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #4286f4;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
@@ -2481,7 +2481,7 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #4286f4;
 		}
 
 		#header a {
@@ -2533,7 +2533,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #4286f4;
 				}
 
 		#header > nav {
@@ -2550,7 +2550,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #4286f4;
 					display: block;
 					padding: 0;
 				}
@@ -2561,15 +2561,15 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: ##4286f4 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #4286f4;
+							color: #4286f4 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2579,14 +2579,14 @@
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: ##4286f4;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #4286f4;
 	}
 
 		#main > section > .container {
@@ -2807,12 +2807,12 @@
 				width: 100%;
 				z-index: 10001;
 				background: #222;
-				color: #fff;
+				color: #4286f4;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #4286f4;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -2848,8 +2848,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
-						color: #ffffff;
+						background: #4286f4;
+						color: #4286f4;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
