@@ -1,60 +1,95 @@
 /*
-	Read Only by HTML5 UP
+	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Icon */
 
-	code,
+	.icon.major {
+		border: none;
+	}
+
+		.icon.major:before {
+			font-size: 3em;
+		}
+
+/* Form */
+
+	label {
+		color: #2E3842;
+	}
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
 	select,
-	textarea,
-	.box,
-	.image,
-	.image img,
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	textarea {
+		border: solid 1px #dfdfdf;
 	}
-
-/* Form */
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		line-height: 2.75em;
-	}
-
-	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: normal;
-		-webkit-appearance: normal;
-		-ms-appearance: normal;
-		appearance: normal;
-	}
-
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
-			padding: 0 0 0 1.5em;
-		}
-
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				display: none;
-			}
 
 /* Button */
 
-	input[type="submit"].alt,
-	input[type="reset"].alt,
-	input[type="button"].alt,
-	.button.alt {
-		border: solid 2px #e4e4e4;
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px #dfdfdf;
 	}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special {
+			border: 0 !important;
+		}
+
+/* Page Wrapper + Menu */
+
+	#menu {
+		display: none;
+	}
+
+	body.is-menu-visible #menu {
+		display: block;
+	}
+
+/* Header */
+
+	#header nav > ul > li > a.menuToggle:after {
+		display: none;
+	}
+
+/* Banner + Wrapper (style4) */
+
+	#banner,
+	.wrapper.style4 {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#banner:before,
+		.wrapper.style4:before {
+			display: none;
+		}
+
+/* Banner */
+
+	#banner .more {
+		height: 4em;
+	}
+
+		#banner .more:after {
+			display: none;
+		}
+
+/* Main */
+
+	#main > header {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#main > header:before {
+			display: none;
+		}
